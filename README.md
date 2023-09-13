@@ -10,6 +10,9 @@ Deploying a web application using Kubernetes
 
 **3) Created a backup for the MySql database in AWS**
     (using EBS Volume)
+    (Also created a cronjob for make it work on every day in a year)
+
+<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2020-16-50.png" height=600 width=1200>
 
 **4) Build and packaged it using Maven**
     (also checked it locally and it runs perfectly)
