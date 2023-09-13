@@ -3,7 +3,7 @@
 Deploying a web application using Kubernetes
 ---
 
-**1) I had set up a Java web application named "Book Store"**
+**1) Set up a Java web application named "Book Store"**
 
 **2) Created the database for using MySql**
     (created 1 instance for sql database)
