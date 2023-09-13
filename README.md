@@ -53,3 +53,17 @@ Deploying a web application using Kubernetes
     
 **Loaded using Load Balancer URL:**
  <img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2017-44-14.png" height=600 width=1200>
+
+---
+Jenkins Pipeline:
+---
+<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2020-47-22.png" height=600 width=1200>
+
+
+**Open Blue Ocean:**
+
+<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2020-49-40.png" height=600 width=1200>
+
+**Nexus Repository:**
+
+<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2020-48-21.png" height=600 width=1200>
