@@ -24,6 +24,8 @@ Deploying a web application using Kubernetes
 **7) Created 3 EC2 instances for making Kubernetes Cluster**
     (one for Master node and two for Worker nodes)
 
+<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2014-04-20.png" height=600 width=1200>
+
 **8) Created a cluster using these 3 instances by Kubeadm**
 
 **9) Created a Deployment(webapp.yaml) file and service file(service.yaml) for creating the pods a service**
@@ -39,3 +41,12 @@ Deploying a web application using Kubernetes
  <img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2013-09-48.png" height=600 width=1200>
 
  <img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2013-50-24.png" height=600 width=1200>
+
+
+**11) Created a Load Balancer in AWS containing the target group with 2 worker nodes**
+    (encountering some issues)
+
+<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2014-04-44.png" height=600 width=1200>
+    
+**Loaded using Load Balancer URL:**
+ <img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2017-44-14.png" height=600 width=1200>
