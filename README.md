@@ -59,8 +59,12 @@ Deploying a web application using Kubernetes
 
 
 **11) Created an Application Load Balancer in AWS containing the target group with 2 worker nodes**
+ * But there were some issues with accessing the webapp, when it is done with Kubeadm
+ * One worker was unhealthy sometimes and we couldn't access the webapp
+ * But problem is solved by using the "Amazon EKS"
+ * Now nodes are running perfectly and the webapp is accessble.
 
-<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2014-04-44.png" height=600 width=1200>
+<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-14%2014-49-46.png" height=600 width=1200>
     
 **Loaded using Load Balancer URL:**
  <img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2017-44-14.png" height=600 width=1200>
