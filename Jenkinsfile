@@ -53,7 +53,9 @@ node{
             }
         }
         
-        stage('Deploy to Tomcat'){
-            sh "docker run -p 8085:8085 -d athulkrishna1712/jenkinsbookstore:v1"
+        stage('Deploy using Kubernetes'){
+            withKubeConfig([credentialsId: 'kubernetescredential', serverUrl: 'https://BE95E460F3D53186BAEA8483248B20D9.sk1.ap-south-1.eks.amazonaws.com']) {
+                    sh 'kubectl apply -f webapp.yaml'
+                    sh 'kubectl apply -f service.yaml'
         }
 }
