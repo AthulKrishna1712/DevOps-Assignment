@@ -72,7 +72,7 @@ Deploying a web application using Kubernetes
 ---
 Jenkins Pipeline:
 ---
-* Automation was introduced by a Jenkins pipeline using a declarative pipeline script
+* Automation was introduced by a Jenkins pipeline using a Scripted pipeline script
 * Cloned the repository from github
 * Used Maven for building and packaging
 * Pushed the code to SonarQube for code scan
