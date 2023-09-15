@@ -73,8 +73,14 @@ Deploying a web application using Kubernetes
 Jenkins Pipeline:
 ---
 * Automation was introduced by a Jenkins pipeline using a declarative pipeline script
+* Cloned the repository from github
+* Used Maven for building and packaging
+* Pushed the code to SonarQube for code scan
+* Pushed the file to Nexus Repository
+* Build the Image and pushed it to DockerHub
+* Deploy the webapp using Kubernetes
 
-<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-13%2020-47-22.png" height=600 width=1200>
+<img src="https://github.com/AthulKrishna1712/Devops-Assignment/blob/main/Screenshots/Screenshot%20from%202023-09-15%2014-48-34.png" height=600 width=1200>
 
 
 **Open Blue Ocean:**
